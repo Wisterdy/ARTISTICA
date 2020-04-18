@@ -1,0 +1,171 @@
+
+/* This was given error from the CSS Validator
+:root
+{
+
+ --main-text-color:yellow;
+}
+*/
+*
+{
+  margin:0px;
+}
+
+/*setting the var of one of the main color that will appear constantly throughout the page*/
+
+/*wrapper class that will be set for the webpage later if we get to media query*/
+#wrapper
+{
+
+}
+body
+{
+
+  background-color: blue;
+}
+
+footer
+{
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color:white;
+}
+header
+{
+
+  width: 100%;
+  background-color: black;
+  height:70px;
+}
+
+p
+{
+  font-size:14pt;
+}
+
+h1
+{
+  padding-top: 2px;
+  color:yellow;
+  padding-left: 10px;
+}
+h2
+{
+   color:yellow;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+article
+{
+  position: static;
+  color:yellow;
+  font-size: 14px;
+  font-family: Arial,"Times New Roman", san-serif;
+
+}
+
+
+a
+{
+
+  text-decoration: none;
+}
+
+
+
+a:hover
+{
+ background-color: yellow;
+}
+nav ul li
+{
+  display: inline;
+
+}
+nav
+{
+  float: right;
+  padding-right:75px;
+
+}
+
+/* class use to center the text of various artist month, week, day*/
+.The_artist
+{
+  text-align: center;
+  /*background-color: black;*/
+  width: 300px;
+  text-transform: capitalize;
+   box-shadow: 5px 5px; 
+   background-color: black;
+
+}
+.The_artist
+{
+  text-shadow:  0 0 3px black, 0 0 6px black;
+}
+
+/* this class contain info about the artist*/
+.artistInfo
+{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.ArtistInfo p
+{
+  text-align: center;
+}
+
+/* address class contain the website locations*/
+.address
+{
+  
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+   
+}
+
+/* This class is assigned to each image on the index so I can try to center them*/
+.imagecontainers
+{
+  position: relative;
+  left:35%;
+  padding-bottom:5px;
+  border-image: url("..//Images/borderimage.jpg");
+  transform: rotate(2deg);
+}
+
+video
+{
+ position: relative;
+ left: 30%;
+}
+
+#missionstatement
+{
+  text-align: center;
+}
+
+#ProductToBuy li
+{
+  list-style-type: square;
+}
+
+#WeekImage img
+{
+  border:2px solid black;
+  border-radius: 25px;
+}
+
+#ProductMain_image
+{
+  background-image:url("..//Images/marc.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+
+}
