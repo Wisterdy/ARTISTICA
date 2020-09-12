@@ -14,9 +14,10 @@
 /*setting the var of one of the main color that will appear constantly throughout the page*/
 
 /*wrapper class that will be set for the webpage later if we get to media query*/
-#wrapper
+.wrapper
 {
-
+ height: auto;
+ width: auto;
 }
 body
 {
@@ -26,6 +27,8 @@ body
 
 footer
 {
+  position: absolute;
+  top:100% !important;
   width: 100%;
   background-color: black;
   text-align: center;
